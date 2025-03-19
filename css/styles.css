@@ -17,6 +17,9 @@
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
 }
@@ -25,6 +28,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 ul {
@@ -75,16 +79,10 @@ input {
 /* #region Header */
 /* mob */
 .header {
-  padding: 20px 0 0;
-  background-image: image-set(
-    url(../images/background/yacht-mob.jpg) 1x,
-    url(../images/background/yacht-mob@2x.jpg) 2x
-  );
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  max-width: 375px;
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
 }
 .header-container {
   border-radius: 8px;
@@ -122,15 +120,6 @@ input {
 /* tab */
 @media screen and (min-width: 768px) {
   .header {
-    background-image: image-set(
-      url(../images/background/yacht-tab.jpg) 1x,
-      url(../images/background/yacht-tab@2x.jpg) 2x
-    );
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    max-width: 768px;
-    margin: 0 auto;
   }
   .burger-btn {
     display: none;
@@ -176,15 +165,6 @@ input {
 /* desktop */
 @media screen and (min-width: 1280px) {
   .header {
-    background-image: image-set(
-      url(../images/background/yacht.jpg) 1x,
-      url(../images/background/yacht@2x.jpg) 2x
-    );
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    max-width: 1280px;
-    margin: 0 auto;
   }
   .header-container {
     max-width: 1080px;
