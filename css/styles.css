@@ -43,7 +43,7 @@ a {
 
 body {
   font-family: "Inter", sans-serif;
-  color: #434455;
+  color: #1b414b;
   background-color: #0e1823;
 }
 button {
@@ -187,7 +187,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 375px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .hero-container {
@@ -237,7 +237,7 @@ input {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 768px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -283,7 +283,7 @@ input {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1280px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .hero-container {
